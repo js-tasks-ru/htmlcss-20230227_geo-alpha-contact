@@ -4,15 +4,44 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
+        <style>
+            .main {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+        </style>
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+
+        <div class="main">
+            <details class="accordion">
+                <summary class="accordion__summary">
+                    Accordion item 1
+                </summary>
+                <p class="accordion__content">
+                    Hidden content
+                </p>
+            </details>
+
+            <details class="accordion">
+                <summary class="accordion__summary">
+                    Accordion item 2
+                </summary>
+                <p class="accordion__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus saepe, accusamus possimus explicabo nobis, vitae quaerat quo ratione quisquam, error minima provident! Amet natus fuga incidunt eius quae. Nisi tenetur animi nulla sed libero eos saepe. Sint, laudantium natus rerum rem dolorem officia dolores necessitatibus, blanditiis suscipit alias adipisci error.
+                </p>
+            </details>
+
+            <details class="accordion">
+                <summary class="accordion__summary">
+                    Accordion item 3
+                </summary>
+                <p class="accordion__content">
+                    Приятно, граждане, наблюдать, как акционеры крупнейших компаний, вне зависимости от их уровня, должны быть объективно рассмотрены соответствующими инстанциями! С другой стороны, базовый вектор развития выявляет срочную потребность новых предложений. В своём стремлении улучшить пользовательский опыт мы упускаем, что стремящиеся вытеснить традиционное производство, нанотехнологии, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут обнародованы.
+                </p>
+            </details>
+        </div>
+
     </body>
 </html>
