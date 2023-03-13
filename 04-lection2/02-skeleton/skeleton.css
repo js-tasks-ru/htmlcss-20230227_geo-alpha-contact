@@ -1,0 +1,44 @@
+.skeleton {
+  box-sizing: border-box;
+
+  height: 192px;
+
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+
+  padding: 24px 24px 32px 24px;
+}
+
+.skeleton__header {
+  display: flex;
+}
+
+.skeleton__description {
+  padding-top: 16px;
+  margin-left: -16px;
+
+}
+
+.skeleton__circle {
+  width: 64px;
+  height: 64px;
+  background: var(--grey-2);
+  border-radius: 50%;
+}
+
+.skeleton__tape {
+  height: 20px;
+  background: linear-gradient(92.51deg, var(--grey-2) 6.44%, var(--grey-1-5) 38.47%, var(--grey-1) 56.48%, var(--grey-1-5) 77.5%, var(--grey-2) 102.52%);
+  margin: 8px 16px;
+}
+
+.skeleton__tape_fill-width {
+  width: calc(100% - 32px);
+}
+.skeleton__tape_1-3 {
+  width: 35%;
+}
+.skeleton__tape_half-plus {
+  width: 53%;
+}
