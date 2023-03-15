@@ -1,23 +1,28 @@
 .skeleton {
   box-sizing: border-box;
 
-  height: 192px;
-
   background: var(--white);
   border: 1px solid var(--grey-3);
   border-radius: 8px;
 
-  padding: 24px 24px 32px 24px;
+  padding: 24px 40px 32px 24px;
 }
 
 .skeleton__header {
   display: flex;
 }
 
+.skeleton__title {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+
 .skeleton__description {
   padding-top: 16px;
-  margin-left: -16px;
-
 }
 
 .skeleton__circle {
@@ -30,15 +35,18 @@
 .skeleton__tape {
   height: 20px;
   background: linear-gradient(92.51deg, var(--grey-2) 6.44%, var(--grey-1-5) 38.47%, var(--grey-1) 56.48%, var(--grey-1-5) 77.5%, var(--grey-2) 102.52%);
-  margin: 8px 16px;
 }
 
-.skeleton__tape_fill-width {
-  width: calc(100% - 32px);
+.skeleton__tape + .skeleton__tape {
+  margin-top: 8px;
 }
-.skeleton__tape_1-3 {
+
+.skeleton__tape_large {
+  width: 100%;
+}
+.skeleton__tape_small {
   width: 35%;
 }
-.skeleton__tape_half-plus {
+.skeleton__tape_medium {
   width: 53%;
 }
