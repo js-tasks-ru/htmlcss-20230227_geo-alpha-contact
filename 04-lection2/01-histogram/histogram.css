@@ -15,6 +15,7 @@
 
 
 .histogram__info {
+  flex-grow: 1;
   display: flex;
 
   font-family: 'Inter';
@@ -26,9 +27,6 @@
   color: var(--black);
 }
 
-.histogram__info + .histogram__info {
-  flex-grow: 1;
-}
 
 .histogram__title {
   opacity: 0.8;
@@ -44,7 +42,7 @@
 .histogram__orders-count {
   font-size: 20px;
   line-height: 26px;
-  padding-bottom: 39px;
+  margin-bottom: 39px;
 }
 
 .histogram__field {
