@@ -5,6 +5,9 @@
 @import '../../components/header/header.css';
 @import '../../components/content/content.css';
 @import '../../components/footer/footer.css';
+@import '../../components/card/card.css';
+@import '../../components/button/button.css';
+
 
 
 :root {
@@ -26,6 +29,6 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
