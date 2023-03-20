@@ -13,10 +13,5 @@
 
 .content__card {
   display: inline-block;
-
-  width: 350px;
-  height: 367px;
   padding: 15px;
-
-  font-size: 1rem;
 }
